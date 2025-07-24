@@ -1,3 +1,4 @@
 .vs
 output
+build
 *.vcxproj.user
