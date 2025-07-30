@@ -1,4 +1,3 @@
 .vs
-output
-bin
+build
 *.vcxproj.user
