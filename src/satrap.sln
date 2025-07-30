@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sandbox", "sandbox\sandbox.vcxproj", "{23827F97-1360-4010-B1E3-97E150631629}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23827F97-1360-4010-B1E3-97E150631629}.Debug|x64.ActiveCfg = Debug|x64
+		{23827F97-1360-4010-B1E3-97E150631629}.Debug|x64.Build.0 = Debug|x64
+		{23827F97-1360-4010-B1E3-97E150631629}.Release|x64.ActiveCfg = Release|x64
+		{23827F97-1360-4010-B1E3-97E150631629}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0719508-77AF-455C-AAF3-135F2349AD27}
+	EndGlobalSection
+EndGlobal
