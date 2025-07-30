@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sandbox", "sandbox\sandbox.vcxproj", "{23827F97-1360-4010-B1E3-97E150631629}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "satrap.logger", "..\lib\satrap.logger\satrap.logger.vcxproj", "{35EF2000-D055-422C-B967-5CBB8073FCFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,9 +19,16 @@ Global
 		{23827F97-1360-4010-B1E3-97E150631629}.Debug|x64.Build.0 = Debug|x64
 		{23827F97-1360-4010-B1E3-97E150631629}.Release|x64.ActiveCfg = Release|x64
 		{23827F97-1360-4010-B1E3-97E150631629}.Release|x64.Build.0 = Release|x64
+		{35EF2000-D055-422C-B967-5CBB8073FCFD}.Debug|x64.ActiveCfg = Debug|x64
+		{35EF2000-D055-422C-B967-5CBB8073FCFD}.Debug|x64.Build.0 = Debug|x64
+		{35EF2000-D055-422C-B967-5CBB8073FCFD}.Release|x64.ActiveCfg = Release|x64
+		{35EF2000-D055-422C-B967-5CBB8073FCFD}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35EF2000-D055-422C-B967-5CBB8073FCFD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0719508-77AF-455C-AAF3-135F2349AD27}
