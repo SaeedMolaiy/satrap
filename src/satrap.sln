@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sandbox", "sandbox\sandbox.vcxproj", "{23827F97-1360-4010-B1E3-97E150631629}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "satrap.engine", "satrap.engine\satrap.engine.vcxproj", "{B3492728-976D-4289-A002-9294829BA646}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{23827F97-1360-4010-B1E3-97E150631629}.Debug|x64.Build.0 = Debug|x64
 		{23827F97-1360-4010-B1E3-97E150631629}.Release|x64.ActiveCfg = Release|x64
 		{23827F97-1360-4010-B1E3-97E150631629}.Release|x64.Build.0 = Release|x64
+		{B3492728-976D-4289-A002-9294829BA646}.Debug|x64.ActiveCfg = Debug|x64
+		{B3492728-976D-4289-A002-9294829BA646}.Debug|x64.Build.0 = Debug|x64
+		{B3492728-976D-4289-A002-9294829BA646}.Release|x64.ActiveCfg = Release|x64
+		{B3492728-976D-4289-A002-9294829BA646}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
